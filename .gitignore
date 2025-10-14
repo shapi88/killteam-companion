@@ -139,4 +139,6 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # mac os generated files
+!.DS_Store
 .DS_Store
+**/.DS_Store
