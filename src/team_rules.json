@@ -1,0 +1,1195 @@
+{
+  "Raveners": {
+    "operators": {
+      "RAVENER PRIME": {
+        "wounds": 21,
+        "save": 5,
+        "melee": {
+          "Scything talons & rending claws": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": true,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        },
+        "ranged": {
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "3\"",
+            "silent": true
+          }
+        }
+      },
+      "RAVENER FELLTALON": {
+        "wounds": 20,
+        "save": 5,
+        "melee": {
+          "Toxic scythes": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": true,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "poison": true
+          },
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        },
+        "ranged": {
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "3\"",
+            "silent": true
+          }
+        }
+      },
+      "RAVENER TREMORSCYTHE": {
+        "wounds": 20,
+        "save": 5,
+        "melee": {
+          "Scything talons & crushing claws": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "crush": true
+          },
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        },
+        "ranged": {
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "3\"",
+            "silent": true
+          }
+        }
+      },
+      "RAVENER VENOMSPITTER": {
+        "wounds": 20,
+        "save": 5,
+        "melee": {
+          "Scything talons & rending claws": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": true,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          },
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        },
+        "ranged": {
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "3\"",
+            "silent": true
+          }
+        }
+      },
+      "RAVENER WARRIOR": {
+        "wounds": 20,
+        "save": 5,
+        "melee": {
+          "Scything talons": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          },
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        },
+        "ranged": {
+          "Pincer tail": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "3\"",
+            "silent": true
+          }
+        }
+      },
+      "RAVENER WRECKER": {
+        "wounds": 20,
+        "save": 4,
+        "melee": {
+          "Scything talons & crushing claws": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "crush": true
+          },
+          "Bone mace": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        },
+        "ranged": {
+          "Bone mace": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "3\"",
+            "silent": true
+          }
+        }
+      }
+    }
+  },
+  "Deathwatch": {
+    "operators": {
+      "DEATHWATCH WATCH SERGEANT": {
+        "wounds": 15,
+        "save": 3,
+        "ranged": {
+          "Plasma pistol (standard)": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          },
+          "Plasma pistol (supercharge)": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 6,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "hot": true,
+            "range": "8\""
+          }
+        },
+        "melee": {
+          "Power weapon": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 6,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH AEGIS VETERAN": {
+        "wounds": 15,
+        "save": 2,
+        "ranged": {
+          "Bolt pistol": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          }
+        },
+        "melee": {
+          "Power maul & storm shield": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 6,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": true,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH BLADEMASTER VETERAN": {
+        "wounds": 15,
+        "save": 3,
+        "ranged": {
+          "Special issue bolt pistol": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          }
+        },
+        "melee": {
+          "Xenophase blade (duel)": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 6,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": true,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          },
+          "Xenophase blade (phase sweep)": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 6,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": true,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH BOMBARD VETERAN": {
+        "wounds": 18,
+        "save": 3,
+        "ranged": {
+          "Bolt pistol": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          },
+          "Frag cannon (shell)": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 5,
+            "critDmg": 7,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          },
+          "Frag cannon (shrapnel)": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "torrent": 2,
+            "range": "8\""
+          }
+        },
+        "melee": {
+          "Fists": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH DEMOLISHER VETERAN": {
+        "wounds": 15,
+        "save": 3,
+        "ranged": {
+          "Bolt pistol": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          }
+        },
+        "melee": {
+          "Heavy thunder hammer": {
+            "attacks": 5,
+            "hit": 4,
+            "normalDmg": 6,
+            "critDmg": 7,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": true,
+            "punishing": false,
+            "severe": false,
+            "shock": true,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "stun": true
+          },
+          "Fists": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH DISRUPTOR VETERAN": {
+        "wounds": 13,
+        "save": 3,
+        "ranged": {
+          "Marksman bolt carbine": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        },
+        "melee": {
+          "Fists": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH GUNNER VETERAN": {
+        "wounds": 15,
+        "save": 3,
+        "ranged": {
+          "Bolt pistol": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          },
+          "Heavy plasma incinerator (standard)": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 6,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          },
+          "Heavy plasma incinerator (supercharge)": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 5,
+            "critDmg": 6,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "hot": true,
+            "range": ""
+          }
+        },
+        "melee": {
+          "Fists": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH HEADTAKER VETERAN": {
+        "wounds": 13,
+        "save": 3,
+        "ranged": {
+          "Special issue bolt pistol": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 1,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          }
+        },
+        "melee": {
+          "Combat knives": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH HORDE-SLAYER VETERAN": {
+        "wounds": 18,
+        "save": 3,
+        "ranged": {
+          "Bolt pistol": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "range": "8\""
+          },
+          "Infernus heavy bolter (flame)": {
+            "attacks": 5,
+            "hit": 2,
+            "normalDmg": 3,
+            "critDmg": 3,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0,
+            "torrent": 2,
+            "range": "8\""
+          },
+          "Infernus heavy bolter (focused bolt)": {
+            "attacks": 5,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 1,
+            "devastating": 0,
+            "range": "8\""
+          },
+          "Infernus heavy bolter (sweeping bolt)": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 1,
+            "devastating": 0,
+            "torrent": 1,
+            "range": "8\""
+          }
+        },
+        "melee": {
+          "Fists": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      },
+      "DEATHWATCH MARKSMAN VETERAN": {
+        "wounds": 15,
+        "save": 3,
+        "ranged": {
+          "Stalker bolt rifle (mobile)": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          },
+          "Stalker bolt rifle (heavy)": {
+            "attacks": 4,
+            "hit": 2,
+            "normalDmg": 3,
+            "critDmg": 5,
+            "lethal": 5,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "nocover": false,
+            "accurate": 0,
+            "piercing": 0,
+            "piercingCrits": 1,
+            "devastating": 0,
+            "heavy": true
+          }
+        },
+        "melee": {
+          "Fists": {
+            "attacks": 4,
+            "hit": 3,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "lethal": 6,
+            "balanced": false,
+            "ceaseless": false,
+            "relentless": false,
+            "rending": false,
+            "brutal": false,
+            "punishing": false,
+            "severe": false,
+            "shock": false,
+            "piercing": 0,
+            "piercingCrits": 0,
+            "devastating": 0
+          }
+        }
+      }
+    }
+  },
+  "Canoptek Circle": {
+    "operators": {
+      "GEOMANCER": {
+        "wounds": 14,
+        "save": 3,
+        "melee": {
+          "attacks": 4,
+          "hit": 3,
+          "normalDmg": 4,
+          "critDmg": 5,
+          "piercing": 1,
+          "piercingCrits": 2
+        },
+        "ranged": {}
+      },
+      "TOMB CRAWLER": {
+        "wounds": 21,
+        "save": 3,
+        "melee": {
+          "attacks": 4,
+          "hit": 4,
+          "normalDmg": 4,
+          "critDmg": 4
+        },
+        "ranged": {
+          "twin_gauss_reapers": {
+            "attacks": 5,
+            "hit": 4,
+            "normalDmg": 4,
+            "critDmg": 5,
+            "piercing": 1,
+            "severe": true
+          },
+          "transdimensional_isolator": {
+            "attacks": 5,
+            "hit": 4,
+            "normalDmg": 5,
+            "critDmg": 6,
+            "dimensional_banishment": true
+          }
+        }
+      },
+      "MACROCYTE ACCELERATOR": {
+        "wounds": 7,
+        "save": 4,
+        "melee": {
+          "attacks": 3,
+          "hit": 4,
+          "normalDmg": 3,
+          "critDmg": 4,
+          "lethal": 5,
+          "stun": true
+        },
+        "ranged": {
+          "attacks": 4,
+          "hit": 4,
+          "normalDmg": 2,
+          "critDmg": 3,
+          "piercing": 1
+        }
+      },
+      "MACROCYTE REANIMATOR": {
+        "wounds": 7,
+        "save": 4,
+        "melee": {
+          "attacks": 4,
+          "hit": 4,
+          "normalDmg": 3,
+          "critDmg": 4
+        },
+        "ranged": {
+          "attacks": 4,
+          "hit": 4,
+          "normalDmg": 3,
+          "critDmg": 4,
+          "lethal": 5
+        }
+      },
+      "MACROCYTE WARRIOR": {
+        "wounds": 7,
+        "save": 4,
+        "melee": {
+          "attacks": 4,
+          "hit": 4,
+          "normalDmg": 3,
+          "critDmg": 4
+        },
+        "ranged": {
+          "gauss_scalpel": {
+            "attacks": 4,
+            "hit": 4,
+            "normalDmg": 3,
+            "critDmg": 4,
+            "piercing": 1
+          },
+          "tesla_caster": {
+            "attacks": 5,
+            "hit": 4,
+            "normalDmg": 2,
+            "critDmg": 3
+          }
+        }
+      }
+    }
+  }
+}
