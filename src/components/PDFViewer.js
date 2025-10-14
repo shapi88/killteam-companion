@@ -24,7 +24,6 @@ const PDFViewer = () => {
   const [rightSelectedFile, setRightSelectedFile] = useState('eng_10-09_killteam_team_rules_deathwatch-nsq5bndvac-cystuwbu4l.pdf');
   const [pdfFiles, setPdfFiles] = useState([]);
 
-  // Carrega os ficheiros PDF ao montar o componente
   useEffect(() => {
     setPdfFiles(getPdfFiles());
   }, []);
@@ -65,8 +64,6 @@ const PDFViewer = () => {
           <div className="flex space-x-4 h-full">
             <div className="w-1/2">
               <Viewer
-                // PDFs are served from public/pdf/v0 — include the v0 folder in the URL so
-                // the viewer fetches the real binary file instead of an HTML page.
                 fileUrl={`/pdf/v0/${leftSelectedFile}`}
                 plugins={[defaultLayoutPluginInstance]}
               />
