@@ -1,0 +1,24 @@
+{
+  "factions": [
+    {
+      "factionId": "IMP",
+      "factionName": "Imperium",
+      "description": "The Imperium of Man is a galaxy-spanning human empire.",
+      "seq": 1
+    }
+  ],
+  "killteams": [
+    {
+      "killteamId": "IMP-AOD",
+      "factionId": "IMP",
+      "seq": 0,
+      "killteamName": "Angels Of Death",
+      "description": "Elite Space Marines.",
+      "composition": "1 leader and 5 operatives",
+      "archetypes": "Security/Seek And Destroy",
+      "userId": null,
+      "isPublished": true,
+      "defaultRosterId": null
+    }
+  ]
+}

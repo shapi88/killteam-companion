@@ -8,6 +8,8 @@ import PDFViewer from './components/PDFViewer';
 import WeaponRules from './components/WeaponRules';
 import GameSetup from './components/GameSetup';
 import UniversalEquipments from './components/UniversalEquipments';
+import KillteamsList from './components/KillteamsList';
+import KillteamPage from './components/KillteamPage';
 import teamData from './team_rules.json';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
             <Route path="/weapon-rules" element={<WeaponRules />} />
             <Route path="/game-setup" element={<GameSetup />} />
             <Route path="/universal-equipments" element={<UniversalEquipments />} />
+            <Route path="/killteams" element={<KillteamsList />} />
+            <Route path="/killteams/:killteamId" element={<KillteamPage />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </Container>

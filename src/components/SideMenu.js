@@ -10,6 +10,7 @@ const SideMenu = () => {
   const items = [
     { label: 'Calculator', path: '/calculator', icon: '🧮' },
     { label: 'Home', path: '/home', icon: '🏠' },
+    { label: 'Kill Teams', path: '/killteams', icon: '🪖' },
     { label: 'Factions', path: '/pdf-viewer', icon: '📚' },
     { label: 'Weapon Rules', path: '/weapon-rules', icon: '🔫' },
     { label: 'Universal Equipments', path: '/universal-equipments', icon: '🎒' },
