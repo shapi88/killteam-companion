@@ -11,6 +11,7 @@ import UniversalEquipments from './components/UniversalEquipments';
 import KillteamsList from './components/KillteamsList';
 import KillteamPage from './components/KillteamPage';
 import teamData from './team_rules.json';
+import Sandbox from './components/Sandbox';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/calculator" element={<ShootingForm teamData={teamData} />} />
             <Route path="/home" element={<Home />} />
+            <Route path="/sandbox" element={<Sandbox />} />
             <Route path="/pdf-viewer" element={<PDFViewer />} />
             <Route path="/weapon-rules" element={<WeaponRules />} />
             <Route path="/game-setup" element={<GameSetup />} />

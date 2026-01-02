@@ -8,7 +8,6 @@ const SideMenu = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
 
   const items = [
-    { label: 'Calculator', path: '/calculator', icon: '🧮' },
     { label: 'Home', path: '/home', icon: '🏠' },
     { label: 'Kill Teams', path: '/killteams', icon: '🪖' },
     { label: 'Factions', path: '/pdf-viewer', icon: '📚' },
@@ -58,6 +57,38 @@ const SideMenu = () => {
             </Nav.Link>
           );
         })}
+      </Nav>
+
+      <div style={{ marginTop: 16, marginBottom: 8, color: '#9CA3AF', fontSize: 12, textTransform: 'uppercase', letterSpacing: 0.5 }}>Playground</div>
+      <Nav className="flex-column" style={{ gap: 8 }}>
+        {(() => {
+          const item = { label: 'Sandbox', path: '/sandbox', icon: '🧪' };
+          const isActive = location.pathname === item.path;
+          const bg = isActive ? '#10B981' : 'transparent';
+          return (
+            <Nav.Link
+              key={item.path}
+              onClick={() => navigate(item.path)}
+              className="d-block text-start"
+              style={{
+                color: 'white',
+                backgroundColor: bg,
+                padding: '10px 12px',
+                borderRadius: 8,
+                display: 'flex',
+                alignItems: 'center',
+                gap: 10,
+                cursor: 'pointer',
+                textDecoration: 'none',
+                border: isActive ? '1px solid #10B981' : '1px solid transparent'
+              }}
+            >
+              <span style={{ fontSize: 16 }}>{item.icon} </span>
+              <span style={{ flex: 1 }}>{item.label}</span>
+              {isActive && <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.85)' }}>Active</span>}
+            </Nav.Link>
+          );
+        })()}
       </Nav>
 
       <div style={{ marginTop: 'auto', fontSize: 12, color: '#9CA3AF' }}>
