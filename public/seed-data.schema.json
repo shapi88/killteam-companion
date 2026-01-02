@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Killteam seed data schema",
+  "type": "object",
+  "properties": {
+    "factions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "factionId": { "type": "string" },
+          "factionName": { "type": "string" },
+          "description": { "type": "string" },
+          "seq": { "type": "integer" }
+        },
+        "required": ["factionId", "factionName", "description", "seq"],
+        "additionalProperties": true
+      }
+    },
+    "killteams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "killteamId": { "type": "string" },
+          "factionId": { "type": "string" },
+          "seq": { "type": "integer" },
+          "killteamName": { "type": "string" },
+          "description": { "type": "string" },
+          "composition": { "type": "string" },
+          "archetypes": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+          "userId": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+          "isPublished": { "type": "boolean" },
+          "defaultRosterId": { "anyOf": [{ "type": "string" }, { "type": "null" }] }
+        },
+        "required": [
+          "killteamId",
+          "factionId",
+          "seq",
+          "killteamName",
+          "description",
+          "composition",
+          "archetypes",
+          "userId",
+          "isPublished",
+          "defaultRosterId"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": ["factions", "killteams"],
+  "additionalProperties": false
+}

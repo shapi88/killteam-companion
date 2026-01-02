@@ -1,0 +1,108 @@
+{
+    "factions": [
+        {
+            "factionId": "factionId-1",
+            "factionName": "Imperium",
+            "description": "The Imperium of Man is a galaxy-spanning interstellar Human empire, the ultimate authority for the majority of the Human species in the Milky Way Galaxy in the 41st Millennium A.D. It is ruled by the living god who is known as the Emperor of Mankind.\n  \n  \n\nThe founder and ruler of the Imperium is the god-like Emperor of Mankind, the most powerful Human psyker ever born. The Emperor founded the Imperium over 10,000 Terran years ago in the late 30th Millennium during the Unification Wars on Old Earth following the terrible period in Human history known as the Age of Strife. ",
+            "seq": 1
+        }
+    ],
+    "killteams": [
+        {
+            "killteamId": "killteamId-1",
+            "factionId": "factionId-1",
+            "seq": 0,
+            "killteamName": "Blades Of Khaine",
+            "description": "Athletic, graceful and utterly lethal, the Aeldari warriors that comprise Blades of Khaine kill teams come together to undertake missions of utmost importance on behalf of their craftworlds. They are dispatched to sever specific strands of fate, ensuring that terrible events they have foreseen never come to pass.",
+            "composition": "A BLADES OF KHAINE KillTeam is composed of:\n\n- 1 BLADES OF KHAINE operative selected from the following list:\n  - DIRE AVENGER EXARCH with one of the following options:\n    - Shuriken catapult; fists\n      - Twin shuriken catapult; gun butts  \n    Or one option from each of the following:\n    - Diresword or power weapon\n      - Shuriken pistol or shimmershield\n  - HOWLING BANSHEE EXARCH with one of the following options:\n    - Mirrorswords\n      - Shuriken pistol; executioner\n      - Shuriken pistol; power weapon\n      - Shuriken pistol; triskele\n      - Triskele; power weapon\n  - STRIKING SCORPION EXARCH with one of the following options:\n    - Shuriken pistol; biting blade\n      - Shuriken pistol; scorpion’s claw & chainsword\n      - Twin shuriken pistols; twin chainswords  \n- 7 BLADES OF KHAINE operatives selected from the following list:\n  - DIRE AVENGER WARRIOR\n  - HOWLING BANSHEE WARRIOR\n  - STRIKING SCORPION WARRIOR",
+            "archetypes": "Seek And Destroy/Security/Recon/Infiltration",
+            "userId": null,
+            "isPublished": true,
+            "defaultRosterId": null
+        }
+    ],
+    "optypes": [
+        {
+            "opTypeId": "opTypeId-1",
+            "killteamId": "killteamId-1",
+            "seq": 0,
+            "opTypeName": "Dire Avenger Exarch",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 9,
+            "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
+            "basesize": 32,
+            "nameType": "AESBAER"
+        }
+    ],
+    "abilities": [
+        {
+            "abilityId": "abilityId-1",
+            "opTypeId": "opTypeId-1",
+            "abilityName": "'ERE, GET DIS!",
+            "description": "You can move one friendly FREEBOOTER HERD operative within this operative’s control range up to 5 inches in a location where it can be placed. Then inflict 1 damage on that operative; if that friendly operative is a SQUIG that has the Explosives ranged weapon, that operative can immediately perform a Shoot action but must select that weapon for it. That operative is expended until the end of the turning point. This operative cannot perform this action unless an enemy operative is within its control range.",
+            "AP": 1
+        }
+    ],
+    "equipments": [
+        {
+            "eqId": "eqId-1",
+            "killteamId": "killteamId-1",
+            "seq": 0,
+            "eqName": "Daemonic Icon",
+            "description": "Use this equipment when a friendly CHAOS DAEMON operative is activated. Select one objective marker within 3\" and visible to that operative. Until the end of the battle or until you use this equipment again (whichever comes first), when determining control of that objective marker, treat friendly operatives’ APL stat as 1 higher. Note this isn’t a change to the APL stat, so any changes are cumulative with this.",
+            "effects": ""
+        }
+    ],
+    "options": [
+        {
+            "optionId": "optionId-1",
+            "opTypeId": "opTypeId-1",
+            "seq": 0,
+            "optionName": "Leader - Destiny",
+            "description": "You must select at least one friendly SORCERER operative, and one of your selected SORCERER operatives must have the LEADER keyword for the battle.\nAdd 1 to that LEADER operative's Wounds stat for the battle.",
+            "effects": "W|+1"
+        }
+    ],
+    "ploys": [
+        {
+            "ployId": "ployId-1",
+            "killteamId": "HBR-VsnGP3-1",
+            "seq": 1,
+            "ployType": "F",
+            "ployName": "Not Even in Death Does Duty End",
+            "description": "Use this firefight ploy when a ready friendly LEGION OF THE DAMNED Before that operative is removed from the killzone, it can perform one free action and cannot suffer damage during that action, and you can change its order to do so. It’s then removed from the killzone as normal.",
+            "effects": ""
+        }
+    ],
+    "weapons": [
+        {
+            "wepId": "wepId-1",
+            "opTypeId": "opTypeId-1",
+            "seq": 0,
+            "wepName": "Combat Shotgun",
+            "wepType": "R",
+            "isDefault": true
+        }
+    ],
+    "weaponprofiles": [
+        {
+            "wepprofileId": "wepprofileId-1",
+            "wepId": "wepId-1",
+            "seq": 0,
+            "profileName": "",
+            "ATK": "3",
+            "HIT": "4+",
+            "DMG": "3/4",
+            "WR": ""
+        }
+    ],
+    "weaponrules": [
+        {
+            "code": "ACC_",
+            "ruleName": "Accurate _",
+            "description": "You can retain up to _ Attack Dice as normal successes without rolling them."
+        }
+    ]
+}

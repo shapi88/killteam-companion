@@ -1,13 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 // Função para carregar dinamicamente os ficheiros PDF da pasta public/pdf/
 function getPdfFiles() {
-  const context = require.context('../../public/pdf', false, /\.pdf$/);
-  return context.keys().map((key) => key.replace('./', ''));
+  try {
+    // require.context may fail when trying to read from `public/` depending on the bundler.
+    // Wrap in try/catch and return an empty list if it isn't available.
+    const context = require.context('../../public/pdf/v0', false, /\.pdf$/);
+    return context.keys().map((key) => key.replace('./', ''));
+  } catch (e) {
+    // Fallback: no bundled list available. Return empty array so the component still renders.
+    return [];
+  }
 }
 
 const PDFViewer = () => {
@@ -16,7 +24,6 @@ const PDFViewer = () => {
   const [rightSelectedFile, setRightSelectedFile] = useState('eng_10-09_killteam_team_rules_deathwatch-nsq5bndvac-cystuwbu4l.pdf');
   const [pdfFiles, setPdfFiles] = useState([]);
 
-  // Carrega os ficheiros PDF ao montar o componente
   useEffect(() => {
     setPdfFiles(getPdfFiles());
   }, []);
@@ -57,7 +64,7 @@ const PDFViewer = () => {
           <div className="flex space-x-4 h-full">
             <div className="w-1/2">
               <Viewer
-                fileUrl={`/pdf/${leftSelectedFile}`}
+                fileUrl={`/pdf/v0/${leftSelectedFile}`}
                 plugins={[defaultLayoutPluginInstance]}
               />
             </div>
@@ -69,7 +76,7 @@ const PDFViewer = () => {
           <div className="flex space-x-4 h-full">
             <div className="w-1/2">
               <Viewer
-                fileUrl={`/pdf/${rightSelectedFile}`}
+                fileUrl={`/pdf/v0/${rightSelectedFile}`}
                 plugins={[defaultLayoutPluginInstance]}
               />
             </div>
